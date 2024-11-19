@@ -37,7 +37,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @OptIn(ExperimentalFoundationApi::class)
-@Composable
+@Composable  
 fun HeaderRecyclerView(modifier: Modifier) {
     // Agrupa las guitarras por su marca, resultando en un mapa donde
     // la clave es la marca (String) y el valor es una lista de guitarras.
